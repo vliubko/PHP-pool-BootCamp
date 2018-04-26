@@ -1,4 +1,5 @@
 # PHP pool (BootCamp)
-My PHP pool at **UNIT Factory**.
+My PHP pool at **UNIT Factory** (school 42).
 
-Exercises from 2-weeks BootCamp to learn basics of **PHP / HTML&CSS / MySQL / JavaScript**.
+Task and solutions from 2-weeks BootCamp (Piscine PHP) <br />
+to learn basics of **Web —— PHP / HTML&CSS / MySQL / JavaScript**.
