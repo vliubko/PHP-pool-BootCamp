@@ -1,0 +1,18 @@
+
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles 4 coordination points.
+
+An object can be constructed from 3 required coords x, y and z, one optional w
+and an instance of color:
+new Vertex( array( 'x' => 1.2, 'y' => 456, 'z' => -2.5 ) );
+new Vertex( array( 'x' => 1.2, 'y' => 456, 'z' => -2.5 , 'w' => 1.0) );
+
+If you want to add color, look at class Color:
+$blue  = new Color( array( 'red' =>   0, 'green' =>   0, 'blue' => 255 ) );
+new Vertex( array( 'x' => 1.2, 'y' => 456, 'z' => -2.5 , 'color' => $blue ) );
+
+x, y and z are float.
+w will be set as 1.00 by default (if not determined).
+Color property if not precised will be white (red = 255, green = 255, blue = 255)
+
+---------------------------------------------------------------------- Vertex ->
